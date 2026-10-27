@@ -1,0 +1,8 @@
+facenet_pytorch
+fastapi
+numpy
+Pillow
+python-multipart
+torch
+torchvision
+uvicorn[standard]
