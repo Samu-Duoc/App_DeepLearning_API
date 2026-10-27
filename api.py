@@ -20,7 +20,7 @@ from torchvision import transforms
 from modelos import IMG_SIZE, MEAN, STD, construir_modelo
 
 RUTA_BASE = Path(__file__).resolve().parent
-RUTA_CSV = RUTA_BASE.parent / "proyecto-integracion" / "sujetos.csv"
+RUTA_CSV = RUTA_BASE / "sujetos.csv"
 RUTA_MODELO = RUTA_BASE / "modelo_entrenado_v2.pt"
 UMBRAL_CONFIANZA = 0.60  # bajo este valor se responde "no registrada"
 
